@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.overlayy {
+  background: black;
+  overflow: hidden;
+  background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(
+      rgba(29, 38, 113, 0.8),
+      rgba(195, 55, 100, 0.8)
+    ),
+    url("/public//assets/images/backgrounds/logo-bg.jpeg");
+  background: linear-gradient(rgba(38, 38, 38, 0.8), rgba(113, 206, 232, 0.9)),
+    url("/public//assets/images/backgrounds/logo-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlayy-2 {
+  background: black;
+  overflow: hidden;
+  background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(
+      rgba(29, 38, 113, 0.8),
+      rgba(195, 55, 100, 0.8)
+    ),
+    url("/public//assets/images/backgrounds/about.JPG");
+  background: linear-gradient(rgba(38, 38, 38, 0.8), rgba(113, 206, 232, 0.9)),
+    url("/public//assets/images/backgrounds/about.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlayy-3 {
+  background: black;
+  overflow: hidden;
+  background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(
+      rgba(29, 38, 113, 0.8),
+      rgba(195, 55, 100, 0.8)
+    ),
+    url("/public//assets/images/backgrounds/services.jpeg");
+  background: linear-gradient(rgba(38, 38, 38, 0.8), rgba(113, 206, 232, 0.9)),
+    url("/public//assets/images/backgrounds/services.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 821px) {
+  .home-bg {
+    background-position: right;
+    background-size: contain;
+    background-image: url("/public/assets/images/backgrounds/home.png");
+  }
+}
