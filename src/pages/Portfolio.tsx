@@ -841,11 +841,7 @@ BMO Foundation is founded by Macmichael Nwaiwu with a mission rooted in a profou
                         style={{
                           backgroundImage:
                             "url(assets/images/projects/splendorins.png)",
-                            backgroundSize: "contain",      
-                            backgroundPosition: "center",    
-                            backgroundRepeat: "no-repeat",   
-                            width: "100%",                   
-                            height: "100%", 
+                           
                         }}
                       />
                     </a>
