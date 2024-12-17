@@ -207,11 +207,7 @@ Key metrics in sales data analysis often include total revenue, sales growth rat
                   data-animation="overlay-anim2"
                   style={{
                   backgroundImage: "url(assets/images/projects/usregionalsales.png)",
-                  backgroundSize: "contain",       
-                  backgroundPosition: "center",    
-                  backgroundRepeat: "no-repeat",   
-                  width: "100%",                   
-                  height: "100%",                  
+                                 
                   }}
                   >
                  </div>
